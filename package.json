@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-courses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangkim58/nodejs_course1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "firstcourses"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangkim58/nodejs_course1/issues"
+  },
+  "homepage": "https://github.com/hoangkim58/nodejs_course1#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
