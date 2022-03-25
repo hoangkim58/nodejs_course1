@@ -4,8 +4,48 @@ h1 {
     color: $red-color;
 }
 h2 {
-    color: pink;
+    color: $red-color;
 }
 h3 {
     color: white;
+}
+
+.header-title {
+    text-align: center;
+}
+.row{
+    margin: auto;
+}
+.card-container{ 
+    width: 330x;
+}
+.card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */ 
+    -webkit-box-orient: vertical;
+}
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */ 
+    -webkit-box-orient: vertical;
+}
+.user-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%; 
+}
+.form-check-all{
+    width: 100px;
+}
+.form-select {
+    width: auto;
+}
+.form-select-lg {
+    font-size: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
